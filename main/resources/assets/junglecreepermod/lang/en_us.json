@@ -1,0 +1,7 @@
+{
+	//Entity
+	"entity.junglecreepermod.jungle_creeper_entity": "Jungle Creeper",
+	
+	//Entity Spawn Eggs
+	"item.junglecreepermod.jungle_creeper_spawn_egg": "Jungle Creeper Spawn Egg"
+}
