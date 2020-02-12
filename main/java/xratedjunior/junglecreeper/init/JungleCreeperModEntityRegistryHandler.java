@@ -13,7 +13,6 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
 import xratedjunior.junglecreeper.api.entity.JungleCreeperModEntityTypes;
-import xratedjunior.junglecreeper.api.entity.JungleCreeperModSpawns;
 import xratedjunior.junglecreeper.common.entity.JungleCreeperEntity;
 import xratedjunior.junglecreeper.core.JungleCreeperMod;
 
@@ -31,7 +30,7 @@ public class JungleCreeperModEntityRegistryHandler
 	{
 		JungleCreeperModEntityTypes.init(event);
 		EntitySpawnPlacementRegistry.register(JungleCreeperModEntityTypes.JUNGLE_CREEPER_ENTITY, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, JungleCreeperEntity::checkJungleCreeperSpawnRules);
-		JungleCreeperModSpawns.registerEntityWorldSpawns();
+		//JungleCreeperModSpawns.registerEntityWorldSpawns();
 	}
 	
 	public static <T extends IForgeRegistryEntry<T>> void register(IForgeRegistry<T> registry, String name, T object)
