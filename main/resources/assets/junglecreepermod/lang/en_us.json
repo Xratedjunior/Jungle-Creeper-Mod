@@ -3,5 +3,11 @@
 	"entity.junglecreepermod.jungle_creeper_entity": "Jungle Creeper",
 	
 	//Entity Spawn Eggs
-	"item.junglecreepermod.jungle_creeper_spawn_egg": "Jungle Creeper Spawn Egg"
+	"item.junglecreepermod.jungle_creeper_spawn_egg": "Jungle Creeper Spawn Egg",
+	
+	//Advancements
+	"junglecreepermod.advancements.killed_by_jungle_creeper.title": "Danger Zone",
+	"junglecreepermod.advancements.killed_by_jungle_creeper.description": "Get blown up by a Jungle Creeper.",
+	"junglecreepermod.advancements.kill_a_jungle_creeper.title": "Invisible stalker",
+	"junglecreepermod.advancements.kill_a_jungle_creeper.description": "Kill a Jungle Creeper."
 }
